@@ -1,4 +1,4 @@
-function takeANumber(line, newPerson) {
+function takeANumber(line) {
   
   line.push(newPerson);
   
