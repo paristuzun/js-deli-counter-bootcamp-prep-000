@@ -21,6 +21,5 @@ function currentLine(line) {
     }
     else { return "The line is currently: 1. " + line[0] + ", 2. " + line[1];
   }
-  return "The line is currently:" + newArray;
-  // returns the current line as a string
+ 
 }
