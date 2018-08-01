@@ -16,17 +16,10 @@ function nowServing(line) {
 
 function currentLine(line) {
     
-   var number = line.length;
-   // accepts the current line of people
-   var newArray = [];
     if  (line.length === 0){
         return "The line is currently empty.";
     }
-    else {
-       for (var i = 0; i < number; i++){
-         var placeInLine = i+1;
-         newArray.push(" " +placeInLine + ". "+line[i]);
-       }
+    else { return "The line is currently: 1. " + line[0] +"", 2. "" + line[1];
   }
   return "The line is currently:" + newArray;
   // returns the current line as a string
