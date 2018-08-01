@@ -24,7 +24,7 @@ function currentLine(line) {
     }
     else {
        for (var i = 0; i < number; i++){
-         var placeInLine = i+1;
+         var placeInLine = i;
          newArray.push(" " +placeInLine + ". "+line[i]);
        }
   }
